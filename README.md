@@ -9,7 +9,9 @@ Spring boot example with both Http and Https enabled
 - Then run the application as Java application and hit below URLs
 
 ***Test to check HTTPS***
+
 https://localhost:8081/testssl
 
 ***Test to check HTTP***
+
 http://localhost:8082/testssl
