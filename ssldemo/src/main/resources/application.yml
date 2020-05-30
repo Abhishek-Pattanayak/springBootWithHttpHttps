@@ -1,0 +1,13 @@
+#SSL Key Info with HTTPS port @8081
+security:
+   require-ssl: true
+server:
+  port: 8081
+  ssl: 
+    key-store-password: abhishek
+    key-store: classpath:example-ssl-key.p12
+    key-store-type: PKCS12
+
+#HTTP port @8082
+http:
+  port: 8082
